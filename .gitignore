@@ -1,0 +1,27 @@
+Makefile
+sqlitebrowser.pro.user
+CMakeLists.txt.user
+CMakeFiles
+*.cmake
+*.cxx_parameters
+
+# ignore any build folders
+build*/
+
+src/.ui/
+src/sqlitebrowser
+src/Makefile*
+src/debug
+src/release
+src/gen_version.h
+
+# no one needs the txt file
+src/grammar/sqlite3TokenTypes.txt
+
+libs/*/Makefile*
+libs/*/debug/
+libs/*/release/
+libs/*/*.a
+
+# Ignore .DS_Store files on OSX
+.DS_Store
